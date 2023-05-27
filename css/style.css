@@ -36,13 +36,13 @@ img {
 }
 
 .page-header {
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .heder-conteiner {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -347,7 +347,7 @@ img {
   fill: #f4f4fd;
 }
 
-customers-section {
+.customers-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -382,6 +382,12 @@ customers-section {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  color: #8e8f99;
+}
+
+.costomers-link:hover,
+.costomers-link:focus {
+  border-color: #404bbf;
 }
 
 .customers-item {
@@ -392,6 +398,11 @@ customers-section {
 
 .customers-icon {
   fill: currentColor;
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+  color: #404bbf;
 }
 
 .logo-footer {
@@ -454,7 +465,7 @@ customers-section {
 }
 
 .footer-soc-link:hover,
-.footer-soc-link {
+.footer-soc-link:focus {
   background-color: #31d0aa;
 }
 
