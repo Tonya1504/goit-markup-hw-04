@@ -349,7 +349,6 @@ img {
 
 .customers-section {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .customers-name {
@@ -389,6 +388,10 @@ img {
 .costomers-link:focus {
   border-color: #404bbf;
   color: #404bbf;
+}
+
+.costomers-link:hover .customers-icon {
+  fill: #404bbf;
 }
 
 .customers-item {
